@@ -1,0 +1,79 @@
+:root {
+  color-scheme: light;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f6f7fb;
+  color: #1e1f2a;
+}
+
+.app {
+  width: 280px;
+  padding: 16px;
+  display: grid;
+  gap: 12px;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 0 0 4px;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 13px;
+  color: #4a4b5f;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #e1e3ef;
+}
+
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #71738b;
+}
+
+.value {
+  font-weight: 600;
+}
+
+.primary {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 600;
+  background: #4c6ef5;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.primary:hover {
+  box-shadow: 0 8px 16px rgba(76, 110, 245, 0.25);
+  transform: translateY(-1px);
+}
+
+.primary:active {
+  transform: translateY(0);
+}
+
+.hint {
+  margin: 0;
+  font-size: 11px;
+  color: #6d6f85;
+}
+
+.error {
+  color: #b42318;
+}
